@@ -51,4 +51,23 @@
 	cursor: pointer;
 	user-select: none;
 	color: #d74c4c;
+	font-weight: 400;
 }
+
+@media (max-width: 1200px) {}
+@media (max-width: 900px) {
+ .join-us-wrapper{
+	 width: 90%;
+	 margin: auto;
+ }
+}
+@media (max-width: 786px) {
+
+}
+@media (max-width: 570px) {
+	.join-us-two__wrap{
+		flex-wrap: wrap;
+	}
+
+}
+@media (max-width: 400px) {}

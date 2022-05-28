@@ -66,3 +66,25 @@
 	padding-left: 10px;
     outline: none;
 }
+
+
+@media (max-width: 1200px) {}
+@media (max-width: 900px) {
+	.contact-wrapper{
+		width: 90%;
+		margin: auto;
+		margin-top: 1rem;
+	}
+}
+@media (max-width: 786px) {
+	.contact-wrapper {
+
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 570px) {
+	.footer-section{
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 400px) {}
