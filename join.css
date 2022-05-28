@@ -1,0 +1,68 @@
+.join-us-wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+.join-us-form {
+  background: #d74c4c;
+  padding: 20px;
+}
+
+.join-us-des {
+  font-size: 13px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #5d5d5d;
+}
+
+.join-us-form__input input {
+  width: 100%;
+  border: none;
+  height: 35px;
+  padding-left: 10px;
+  font-size: 13px;
+  outline: none;
+}
+
+.join-us-two__wrap {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.join-us-form__input {
+  width: 100%;
+}
+
+.join-us__message textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.join-us__submit-btn {
+  height: 35px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 150px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #d74c4c;
+}
+/*# sourceMappingURL=join.css.map */
