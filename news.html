@@ -39,7 +39,17 @@
 					<div class="navbar-nav">
 						<a class="nav-link" aria-current="page" href="/">Home</a>
 						<div class="line-seperator"></div>
-						<a class="nav-link" href="/about.html">About us</a>
+						<div class="dropdown">
+							<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+							  About us
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+							  <li><a class="dropdown-item" href="/about.html">About</a></li>
+							  <li><a class="dropdown-item" href="#">Another action</a></li>
+							  <li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						  </div>
+
 						<div class="line-seperator"></div>
 						<a class="nav-link active" href="/news.html">News & Events</a>
 						<div class="line-seperator"></div>
@@ -61,7 +71,7 @@
 			<div class="new-event__title">News</div>
 			<div class="news-event__wrapper">
 				<div class="news__events">
-					<a href="">
+					<a href="/single-news.html">
 					<div class="news-event__card">
 						<img src="./assets/images/highlight.png" alt="" />
 						<div class="news-event-title">Lorem ipsum</div>
@@ -71,7 +81,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="">
+				<a href="/single-news.html">
 					<div class="news-event__card">
 						<img src="./assets/images/highlight.png" alt="" />
 						<div class="news-event-title">Lorem ipsum</div>
@@ -81,7 +91,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="">
+				<a href="/single-news.html">
 					<div class="news-event__card">
 						<img src="./assets/images/highlight.png" alt="" />
 						<div class="news-event-title">Lorem ipsum</div>

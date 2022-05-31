@@ -21,8 +21,12 @@ section.about-page__history {
 	font-size: 35px;
 	font-weight: 400;
 }
+.hightlights-item {
+    height: 200px;
+}
 .hightlights-item img{
-	height: auto!important;
+	height: 100%;
+	object-fit: cover;
 }
 .history-wrapper__content-des {
 	font-size: 14px;
@@ -102,6 +106,52 @@ iframe.map-size {
 	width: 800px;
 	height: 400px;
 }
+
+
+
+  /* Assigning general property to card  */
+  .card {
+	height: 200px;
+	position: relative;
+	background-size: cover;
+	background-color: #d74c4c;
+	background-position: center center;
+	overflow: hidden;
+	cursor: pointer;
+	border: none;
+	border-radius: 0;
+}
+
+/* Assigning properties to inner
+	content of card  */
+.card__inner {
+	background-color:  #d74c4c6b;
+	color: #fff;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	opacity: 0;
+	padding: 2rem 1.3rem 2rem 2rem;
+	transition: all 0.4s ease 0s;
+	font-size: 13px;
+}
+
+/* On hovering card opacity of
+	content must be 1*/
+.card:hover .card__inner {
+	opacity: 1;
+}
+
+/* General property for heading
+	and paragraph*/
+.card__inner h2 {
+	margin-top: 1rem;
+}
+
+
 @media (max-width: 1200px) {
 }
 @media (max-width: 900px) {
